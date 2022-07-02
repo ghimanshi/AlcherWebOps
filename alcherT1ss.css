@@ -49,12 +49,14 @@ body{
 #content1{
     margin: 2vw;
 }
-.heading{
+#heading{
     width: fit-content;
     margin: auto;
     padding: 1vw;
+    color: #000000;
+    font-size:30px;
 }
-.heading h2{
+#heading h2{
     display: inline !important;
 }
 #content1 p, h2{
@@ -81,20 +83,20 @@ button{
     font-size: 15px;
     box-shadow: 2px 2px 1px rgb(231, 231, 231);
 }
-.blueb{
+#blueb{
     color:white;
     background-color: blue;
 }
-.blueb:hover{
+#blueb:hover{
     background-color: rgb(22, 22, 200);
     transition:0.3;
 }
-.whiteb{
+#whiteb{
     color:blue;
     background-color:white ;
 }
 
-.whiteb:hover{
+#whiteb:hover{
     background-color: antiquewhite;
     transition:0.3;
 }
