@@ -1,0 +1,127 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    padding-left: 120px;
+    padding-right: 120px;
+}
+#navBar{
+    height:80px;
+    margin-bottom: 30px;
+}
+#heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    height: 60px;
+}
+#heading p{
+    font-size: 35px;
+    font-family: monospace;
+}
+.red{
+    color: red;
+}
+.grey{
+    color: grey;
+    font-size: 30px;
+    font-family: monospace;
+}
+#container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#posts{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 700px;
+    width:fit-content;
+}
+#posts div{
+    box-shadow: 5px 5px 2px grey;
+}
+
+#rightContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#myProfile{
+    background-image: linear-gradient(to right, rgb(245, 153, 136) , rgb(227, 51, 51));
+    width: 260;
+    height:200px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    color: white;
+    font-size:30px;
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: space-between;
+}
+#profile{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 0cm;
+    border-radius: 15px;
+    box-shadow: 5px 5px 2px grey;
+    font-family: Arial, Helvetica, sans-serif;
+    width:300px;
+    height:500px;
+    margin: auto;
+}
+
+#rightContainer img{
+    border-radius: 25px;
+}
+#credentials{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    width: 260;
+}
+
+#myposts, #savedposts{
+    display: flex;
+    flex-direction: row;
+    
+    align-items: center;
+}
+
+#create{
+    width:260px;
+    height:60px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 0cm;
+    border-radius: 15px;
+    box-shadow: 5px 5px 2px grey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#data, #operations{
+    padding-left:20px;
+    padding-right:20px;
+    width:260px;
+}

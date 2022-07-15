@@ -1,0 +1,118 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+#AlcherConnect{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: auto;
+    height: 500px;
+    width:500px;
+}
+#heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+#heading p{
+    font-size: 35px;
+    font-family: monospace;
+}
+.red{
+    color: red;
+}
+.grey{
+    color: grey;
+    font-size: 30px;
+    font-family: monospace;
+}
+#content{
+    padding-top:20px;
+}
+#login{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    border: 0cm;
+    border-radius: 15px;
+    box-shadow: 5px 5px 2px grey;
+    font-family: Arial, Helvetica, sans-serif;
+    width:300px;
+    height:500px;
+    margin: auto;
+    
+}
+#header{
+    background-image: linear-gradient(to right, rgb(245, 153, 136) , rgb(227, 51, 51));
+    width: 100%;
+    height:200px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    color: white;
+    
+    
+}
+#headerContainer{
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    height: 120px;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: space-between;
+    
+}
+
+#headerContainer a{
+    text-decoration: none;
+    color: white;
+}
+#l{
+    font-size:35px;
+}
+#register{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 95%;
+    font-size: 14px;
+    width:260px;
+
+}
+button{
+    color:rgb(227, 51, 51);
+    border: 1px solid rgb(227, 51, 51);
+    border-radius: 3px;
+    font-size: 20x;
+    width: 260px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+label{
+    font-size: 17px;
+    color:grey;
+
+}
+
+#username, #password{
+    padding-left:20px;
+}
+
+
+
+
+
