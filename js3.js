@@ -14,7 +14,7 @@ const findMyState = () =>{
         .then(res => res.json())
         .then(data=>{
             console.log(data);
-            status.innerHTML = `Current Position : <br> ${data.address.suburb}, ${data.address.country}`;
+            status.innerHTML = `Current Position : <br> ${data.address.city}, ${data.address.country}`;
             btn.style.display = 'none';
         })
 
